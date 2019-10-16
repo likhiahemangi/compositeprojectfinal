@@ -255,10 +255,7 @@ i{
 }
 
 /*** MEDIA QUERY***/
-@media only screen and (max-width:1500px){
-body{
-    background-color: white;
-    }
+@media only screen and (max-width:1500px){}
 div h2{
     visibility: hidden;
     display: none;
@@ -276,6 +273,7 @@ body{
      grid-template-columns: 1fr;
      position: relative;
      background-color: white;
+     list-style: none;
 }
 .nav{
     font-size: 18px;
@@ -330,7 +328,8 @@ body{
 input{
     padding-left: 2rem;
     margin: 1rem 0 0 1rem;
-    height: 4rem;
+    height: 2rem;
+    font-size: 1rem;
 }
 .menu-link:hover{
     color: blue;
@@ -379,10 +378,10 @@ input{
      text-align: left;
  }
  .box-2{
-     background-color: black;
+     background-color: white;
  }
  .box-2 h2 , .box-2 h4{
-     color: white;
+    color: black;
  }
  .Subject h2{
      visibility: hidden;
