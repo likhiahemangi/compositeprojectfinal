@@ -256,14 +256,22 @@ i{
 
 /*** MEDIA QUERY***/
 @media only screen and (max-width:1500px){
- .head{
-    visibility: hidden;
-    display: none;
-    }
 .logo{
     margin-left: 1rem;
     height: 2rem;
+    width: 6rem;
     margin-top: 1rem;
+}
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.head h2{
+    font-size: medium;
+}
+.logout{
+    height: 1rem;
+    margin:  1rem 0 0.5rem 6rem;
 }
 body{
     margin: 0%;
@@ -287,10 +295,6 @@ body{
  .nav-input{
     visibility: hidden;
     display: none;
- }
- .logout{
-     visibility: hidden;
-     display: none;
  }
  .body-1{
     visibility: hidden;
