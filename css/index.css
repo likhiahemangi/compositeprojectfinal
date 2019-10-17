@@ -227,7 +227,11 @@ i{
 .body-4 h5{
     color: black;
     font-size: 1.3rem;
+<<<<<<< HEAD
     line-height: 0.3;
+=======
+    line-height: 0.5;
+>>>>>>> efb37efd3d200c4c35874df97346e80292da485f
 }
 .body-4 h4{
     color:darkolivegreen;
@@ -242,14 +246,18 @@ i{
 .help{
     background-color: white;
     margin: 0%;
+<<<<<<< HEAD
     padding-left: 0.5rem;
+=======
+    padding-left: 1rem;
+>>>>>>> efb37efd3d200c4c35874df97346e80292da485f
 }
 .help h3:hover{
    background-color: black;
    color: beige;
    text-decoration-line: underline;
 }
-.help h3{
+.help h3{ 
     font-size: 1rem;
     color: black;
     text-decoration-line: none;
