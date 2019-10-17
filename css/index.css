@@ -227,6 +227,7 @@ i{
 .body-4 h5{
     color: black;
     font-size: 1.3rem;
+    line-height: 0.5;
 }
 .body-4 h4{
     color:darkolivegreen;
@@ -241,13 +242,14 @@ i{
 .help{
     background-color: white;
     margin: 0%;
+    padding-left: 1rem;
 }
 .help h3:hover{
    background-color: black;
    color: beige;
    text-decoration-line: underline;
 }
-.help h3{
+.help h3{ 
     font-size: 1rem;
     color: black;
     text-decoration-line: none;
